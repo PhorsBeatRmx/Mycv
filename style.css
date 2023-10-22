@@ -6,13 +6,6 @@
   font-family: "League Spartan", sans-serif;
   scroll-behavior: smooth;
 }
-  .bi {
-    opacity: 0.7;
-    transition: 0.3s;
-  }
-  .bi:hover {
-    opacity: 1;
-  }
 @media (max-width: 3000px) {
   h1 {
     font-family: "Julius Sans One", sans-serif;
@@ -95,7 +88,13 @@
     margin-left: 280px;
     margin-top: 320px;
   }
-
+  .bi {
+    opacity: 0.7;
+    transition: 0.3s;
+  }
+  .bi:hover {
+    opacity: 1;
+  }
   #aboutme {
     width: 100%;
     height: 100vh;
@@ -115,7 +114,7 @@
   #experiences {
     width: 100%;
     height: 100vh;
-    background-color: #f8f0e5;
+    background: linear-gradient(#fff, #f8f0e5);
     font-family: "League Spartan", sans-serif;
     padding-top: 120px;
   }
@@ -187,13 +186,6 @@
     position: relative;
     left: 0;
   }
-    .bi {
-    opacity: 0.7;
-    transition: 0.3s;
-  }
-  .bi:hover {
-    opacity: 1;
-  }
   .personal-card {
     right: 20px;
   }
@@ -220,6 +212,12 @@
     margin-left: 200px;
     margin-top: 320px;
   }
+  .bi {
+    opacity: 0.7;
+  }
+  .bi:hover {
+    opacity: 1;
+  }
   #aboutme {
     width: 100%;
     height: 100vh;
@@ -239,7 +237,7 @@
   #experiences {
     width: 100%;
     height: 100vh;
-    background-color: #f8f0e5;
+    /* background-color: #f8f0e5; */
     font-family: "League Spartan", sans-serif;
     padding-top: 120px;
   }
@@ -264,13 +262,7 @@
     top: 0;
     z-index: 1;
   }
-    .bi {
-    opacity: 0.7;
-    transition: 0.3s;
-  }
-  .bi:hover {
-    opacity: 1;
-  }
+
   .nav-color {
     background-color: #b4b4b3bc;
     display: flex;
@@ -398,13 +390,6 @@
     box-shadow: 0px 0px 10px 1px rgba(105, 105, 105, 0.3);
     right: 195px;
   }
-    .bi {
-    opacity: 0.7;
-    transition: 0.3s;
-  }
-  .bi:hover {
-    opacity: 1;
-  }
   .txt-personal {
     margin-left: 120px;
     margin-top: 350px;
@@ -418,13 +403,6 @@
     margin: 0;
     position: relative;
     left: 0;
-  }
-    .bi {
-    opacity: 0.7;
-    transition: 0.3s;
-  }
-  .bi:hover {
-    opacity: 1;
   }
   .card {
     width: 150%;
@@ -449,13 +427,7 @@
     top: 0;
     z-index: 1;
   }
-  .bi {
-    opacity: 0.7;
-    transition: 0.3s;
-  }
-  .bi:hover {
-    opacity: 1;
-  }
+
   .nav-color {
     background-color: #b4b4b3bc;
     display: flex;
@@ -597,7 +569,7 @@
     border: none;
     box-shadow: 0px 0px 10px 1px rgba(105, 105, 105, 0.3);
     right: 0px;
-    left: 39px;
+    left: 36px;
     display: inline-table;
   }
   .border-light {
@@ -608,7 +580,7 @@
     padding-top: 200px;
   }
   #ab {
-    margin-bottom: 120px;
+    margin-bottom: 140px;
   }
   #ex-text {
     font-size: 18px;
@@ -620,5 +592,49 @@
     width: 100%;
     height: 122vh;
     padding-top: 55px;
+  }
+  #abp {
+    font-size: 18px !important;
+  }
+}
+@media (max-width: 390px) {
+  hr {
+    margin: 0 !important;
+  }
+  .mb-4 {
+    margin-bottom: 0 !important;
+  }
+  .mt-5 {
+    margin-top: 10px !important;
+  }
+  #ul-li {
+    padding: 0 !important;
+  }
+  .skill {
+    padding: 0 20px !important;
+  }
+  .exp {
+    padding: 0 !important;
+  }
+  #experiences {
+    height: 123vh;
+    padding-top: 50px;
+  }
+  .h-about {
+    padding-top: 130px !important;
+    margin-bottom: 180px !important;
+  }
+  #ab {
+    margin-bottom: 180px !important;
+  }
+  .cart {
+    width: 99vw;
+    height: 80vh;
+    background-color: #f8f0e5;
+    border: none;
+    box-shadow: 0px 0px 10px 1px rgba(105, 105, 105, 0.3);
+    right: 0px;
+    left: 30px;
+    display: inline-table;
   }
 }
