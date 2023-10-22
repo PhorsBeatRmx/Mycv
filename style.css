@@ -560,3 +560,36 @@
     font-family: "League Spartan", sans-serif;
   }
 }
+@media (max-width: 425px) {
+  .card {
+    width: 99vw;
+    height: 80vh;
+    background-color: #f8f0e5;
+    border: none;
+    box-shadow: 0px 0px 10px 1px rgba(105, 105, 105, 0.3);
+    right: 0px;
+    left: 39px;
+    display: inline-table;
+  }
+  .border-light {
+    margin-top: 0;
+    margin-left: 112px;
+  }
+  .h-about {
+    padding-top: 200px;
+  }
+  #ab {
+    margin-bottom: 120px;
+  }
+  #ex-text {
+    font-size: 18px;
+  }
+  .mt-5 {
+    margin-top: 0;
+  }
+  #experiences {
+    width: 100%;
+    height: 122vh;
+    padding-top: 55px;
+  }
+}
