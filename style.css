@@ -90,6 +90,7 @@
   }
   .bi {
     opacity: 0.7;
+    transition: 0.3s;
   }
   .bi:hover {
     opacity: 1;
