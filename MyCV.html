@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <title>Welcome</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: "League Spartan", sans-serif;
+      }
+      .nav-color {
+        background-color: #f6f4eb;
+        display: flex;
+        justify-content: space-between;
+      }
+      .p-5 {
+        font-size: 50px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-family: "Sorts Mill Goudy", serif;
+      }
+      li a::after {
+        content: "";
+        width: 0;
+        height: 1px;
+        background-color: var(--bs-navbar-active-color);
+        margin: auto;
+        display: block;
+        opacity: 0.3;
+        transition: width 0.3s ease-in;
+      }
+      li a:hover::after {
+        width: 100%;
+      }
+      #Home {
+        background-color: aquamarine;
+        width: 100%;
+      }
+      .bg-1 {
+        width: 30%;
+        background-color: #91c8e4;
+        height: 80vh;
+      }
+      .bg-2 {
+        width: 70%;
+        background-color: #fff;
+        height: 80vh;
+      }
+      .text-home {
+        width: 60%;
+        margin-top: 300px;
+        margin-left: 200px;
+      }
+      .text-home p:first-of-type {
+        font-size: 25px;
+        font-weight: 100;
+        margin: 0;
+      }
+      .txt-name {
+        font-size: 50px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-family: "Julius Sans One", sans-serif;
+        margin-bottom: 0;
+      }
+      h3 {
+        font-size: 34px;
+        font-weight: 300;
+      }
+      .personal-card {
+        width: 20%;
+        background-color: aqua;
+        height: 550px;
+        top: 25%;
+        left: 19%;
+      }
+      .img-personal {
+        width: 50%;
+        position: relative;
+      }
+      .img-personal img {
+        margin-top: 20px;
+        margin-left: 135px;
+        width: 250px;
+        height: 250px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg nav-color">
+        <div class="container-fluid mx-4">
+          <!-- <a class="p-5 mt-1 mb-0 navbar-brand" href="#">
+            SOK SOPHORN
+            <span style="font-weight: 100; font-size: 22px"
+              >/ Front-End Developer</span
+            >
+          </a> -->
+          <div class="p-4" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item ms-4 ms-1 nav-li">
+                <a
+                  class="nav-link active fs-3 fw-light"
+                  aria-current="page"
+                  href="#Home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item ms-4 nav-li">
+                <a class="nav-link" href="#">About me</a>
+              </li>
+              <li class="nav-item ms-4 nav-li">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section id="Home">
+      <div class="container-fluid d-flex">
+        <div class="bg-1"></div>
+        <div class="bg-2">
+          <div class="personal-card">
+            <div class="img-personal">
+              <img src="MY1.jpg" alt="" class="rounded-circle" />
+            </div>
+          </div>
+          <div class="text-home">
+            <p>Hello, I'm</p>
+            <h1 class="txt-name">SOK SOPHORN</h1>
+            <h3 class="">Front-End Developer</h3>
+            <p>Phone: <span>092329126</span></p>
+            <p>Email: <span>Phorsbeatrmx0509@gmail.com</span></p>
+            <p>
+              Address: 280.St271 Sangkat TekThla Khan SenSok, PhnomPenh<span
+              ></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
